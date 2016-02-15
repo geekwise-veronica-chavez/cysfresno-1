@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background-color:floralwhite;
+    background-color:cadetblue;
     margin:0 auto;
     padding:10px;
     width:90%;
@@ -28,7 +28,7 @@ nav{
     margin: 0 auto;
     width: 92.5%;
     height: 100%;
-    background-color:floralwhite;
+    background-color:cadetblue;
     font-size:;
     
 }
@@ -43,11 +43,18 @@ ul{
     text-align:left;
     
 }
-li{ 
-    
+li{     
 display: inline-block;
     
 }
+
+li:hover{
+    color: black;
+}
+li{
+    color: azure;
+}
+
 #a{
     width: 10%;
     height:;
@@ -182,9 +189,6 @@ p{
     font-size:13px
     
 }
-
-
-
 
 
 
