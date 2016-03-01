@@ -16,16 +16,18 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 75%;
-    height: 180px;
-    overflow: hidden;
+    height: 60%;
     background-color: #728ba8;
 }
 /*change color target a*/
 nav{
+    
+    margin:0 auto;
+    background-color:cadetblue;
     display:block;
-    margin-left: auto;
-    width: 90%;
-    background-color:lightblue;
+    position:relative;
+    max-width: 60%;
+    
 }
 
 li{
@@ -38,10 +40,7 @@ li{
     padding: 15px; 
 
 }
-/*
-a{ 
-    color: white;
-*/
+
 }
 #top_menu{
     color:#ffffff;
