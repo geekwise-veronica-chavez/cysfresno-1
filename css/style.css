@@ -20,13 +20,15 @@ header{
     background-color: #728ba8;
 }
 /*change color target a*/
+
 nav{
     
     margin:0 auto;
     background-color:cadetblue;
     display:block;
     position:relative;
-    max-width: 60%;
+    max-width: 75%;
+    background-color:#728ba8;
     
 }
 
@@ -35,12 +37,28 @@ li{
     overflow: hidden;
     list-style-type:none;
     color: #ffffff;
-    font-size: 18px;
-    margin: 5px;
-    padding: 15px; 
+    font-size: 2rem;
+    margin: .3rem;
+    padding:1.5rem; 
 
 }
+#home-slider{
+    display:inline-block;
+    margin:0 auto;
+    float:left;
+}
+#two > p{
+    margin:0 auto;
+    width:calc(100%/2);
+    width:100%;
+    display:inline-block;
+    position:absolute;
+    float:left;
+    font-size: 2rem;
+    float:right;
+}
 
+OLD CSS
 }
 #top_menu{
     color:#ffffff;
@@ -71,10 +89,10 @@ main{
     height:800px;
     background-color: #ffffff;
     display: block;
-    
     box-sizing: border-box;
 }
 
+/*
 #image{
     margin: 0 auto;
     padding: 0;
@@ -89,7 +107,9 @@ main{
     height: auto;
     background-color: ghostwhite;
 }
+*/
 
+/*
 .floating-box {
     text-align: left;
     display: inline-block;
@@ -121,6 +141,9 @@ main{
     width:calc(80%/3);
     height: 200px
 }
+*/
+
+
 /*
 #box1{
     margin: 0;
@@ -148,6 +171,7 @@ background-color: antiquewhite;}
     
 */
 
+/*
 #row_two{
     box-sizing: border-box;
     margin:0 auto;
@@ -194,6 +218,7 @@ p{
     font-size:13px
     
 }
+*/
 
 
 
