@@ -1,7 +1,9 @@
 html, body{
-        margin:0 auto;
-        padding: 0;
-     
+    height: 100%;
+    width: 100%;
+    font-size: 62.7%;
+    box-sizing: border-box;
+    
 }
 body{
     margin: 0;
@@ -20,8 +22,10 @@ header{
 }
 /*change color target a*/
 nav{
+    display:block;
     margin-left: auto;
     width: 90%;
+    background-color:lightblue;
 }
 
 li{
