@@ -43,7 +43,6 @@ nav{
     margin:0 auto;
     background-color:cadetblue;
     display:block;
-    position:absolute;
     max-width: 75%;
     background-color:#728ba8;
     
@@ -52,12 +51,17 @@ nav{
 li{
     
     margin:0 auto;
+    padding:1.1rem;
     display: inline-block;
     text-decoration: none;
     position:relative;
     color: #ffffff;
     font-size: 2rem;
 
+}
+li:hover{
+color:lightblue;
+background-color:ghostwhite;
 }
 
 /*
