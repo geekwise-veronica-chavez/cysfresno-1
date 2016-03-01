@@ -45,7 +45,10 @@ li{
 #home-slider{
     display:inline-block;
     margin:0 auto;
-    float:left;
+    width:0 auto;
+    position:absolute;
+    height:32rem;
+    
 }
 #two > p{
     margin:0 auto;
@@ -59,7 +62,7 @@ li{
 }
 
 OLD CSS
-}
+
 #top_menu{
     color:#ffffff;
     display: block;
