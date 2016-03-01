@@ -60,9 +60,11 @@ li{
 
 }
 li:hover{
-color:lightblue;
+color:cadetblue;
 background-color:ghostwhite;
+transition: background 2s
 }
+
 
 /*
 .container .header {
