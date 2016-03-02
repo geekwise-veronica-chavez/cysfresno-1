@@ -1,3 +1,4 @@
+/*
 html, body{
     height:100%;
     width:100%;
@@ -85,11 +86,9 @@ div > figure > img{
     float:left;
     display:hidden;
 }
+*/
 
 
-
-
-/*
 html, body{
     height:100%;
     width:100%;
@@ -281,4 +280,4 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
-}*/
+}
