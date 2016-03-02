@@ -32,12 +32,12 @@ li{
 }
 
 .btn > a{
+    margin:0 auto;
     text-decoration: none;
 }
 .btn > a > active:hover{
-    height: 30px;
-    width:30px;
-    background-color:blue;
+    
+    background-color:white;
     
     
 }
@@ -45,8 +45,8 @@ li{
 .btn{
     background-color: #728aa5;
     color: white;
-    padding: 16px;
-    font-size: 14px;
+    padding: .5rem;
+    font-size: 1.2rem;
     border: none;
     cursor: auto;
     
