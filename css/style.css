@@ -31,26 +31,31 @@ li{
     
 }
 
+/*    NAVIGATION BAR STYLES HERE*/
+
 .btn > a{
-    margin:0 auto;
+    
     text-decoration: none;
 }
-.btn > a > active:hover{
-    
+.btn > a:hover{
+    color:skyblue;
     background-color:white;
+    transition: background 1s;
+    border-radius:.9rem;
     
     
 }
 
 .btn{
     background-color: #728aa5;
-    color: white;
-    padding: .5rem;
+    color:ghostwhite;
+    padding: .3rem;
     font-size: 1.2rem;
     border: none;
     cursor: auto;
     
 }
+
 
 .dropdown{
     position: relative;
