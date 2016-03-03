@@ -120,6 +120,7 @@ li{
     border: solid white .5rem;
    box-shadow: 0px 3px lightgrey;
 }
+
 .line{
     position: relative;
     top: 50%;
@@ -133,6 +134,7 @@ li{
 .section_one{
     display: block;
     margin: auto;
+    margin-top: -23%;
     width:80%;
     height: 210px;
     background-color: #fff;
@@ -265,7 +267,10 @@ footer{
     margin: auto;
     padding: 0;
     position: relative;
-    top: -230px;
+    top: 10px;
+    box-sizing: border-box;
+    border: solid .5px light grey;
+    
 }
 
 .footer_text_two{
@@ -281,8 +286,7 @@ footer{
     padding: 2rem;
     width: calc(90%/2);
     float: left;
-    top: -100%;
-    transform: translateY(50%);
+
 }
 
 #footer_right{
