@@ -95,13 +95,12 @@ li{
 
 */
 
-#first_menu{
+.first_menu{
     color:#ffffff;
-    display: block;
+    display: inline;
     font-size: 14px;
     padding: 0;
     margin: 0;
-    
 }
 
 #image{
@@ -140,6 +139,7 @@ li{
     border-radius: .8rem;
     box-shadow: -.1rem .1rem lightgrey;
 }
+
 .title{
     font-size: 32px;
     font-family:sans-serif;
@@ -147,6 +147,7 @@ li{
     letter-spacing: .1rem;
     text-decoration: none;
 }
+
 .title:hover{
     opacity: .5;
     color: #728ba8;
@@ -160,10 +161,13 @@ li{
     padding-left: 2rem;
     margin: 0;
 }
+
 p{
+
     margin: 0;
     padding: .2rem;
 }
+
 .content{
     text-decoration: none;
     padding: 0;
@@ -175,7 +179,7 @@ p{
     text-decoration: underline;
 }
 
-.section_two{
+#section_two{
     box-sizing: border-box;
     margin:0 auto;
     margin-top: 4rem;
@@ -253,6 +257,7 @@ h3{
 #boldface_two{
     font-weight: 800;
 }
+
 footer{
     width: 80%;
     height: 50px;
@@ -267,6 +272,7 @@ footer{
         width: 100%;
         padding: 0;
         margin: 0;
+
     
 }
 
@@ -275,6 +281,8 @@ footer{
     padding: 2rem;
     width: calc(90%/2);
     float: left;
+    top: -100%;
+    transform: translateY(50%);
 }
 
 #footer_right{
@@ -294,6 +302,8 @@ footer{
 #return_top:hover{
     color:#5397b4;
 }
+
+
 @media only screen and (max-width:110rem){
     body{
         
@@ -310,61 +320,8 @@ footer{
 }
 
 
-
-
-
-/*    
-
-footer{
-    clear:both;
-    font: 10px;
-    margin: ;
-    text-shadow: 1px 1px #fff;
-    width: 100%;
     
-}
-#gototop{
-     float:left;
-    text-align: center;
-    cursor: auto;
-}
-#gtop{
-    color:black;
-}
-#creds{
-    float: right;
-    text-align: right;
-    width: 75%;
-}
 
-*/
-/*
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
-
-body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
-  position: relative;
-  width: 250%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
-}
-
-*/
 
 
 
