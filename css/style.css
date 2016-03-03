@@ -324,6 +324,98 @@ footer{
 }
 
 
+/*css for about us page*/
+.main_about{
+    
+    box-sizing: border-box;
+}
+.about_section{
+        margin: auto;
+        padding: 2rem;
+        background-color: #fff;
+        width: 80%;
+        height: 130rem;
+        border-radius: .5rem;
+        position: relative;
+        top: -31rem;
+        box-sizing: border-box;
+     
+    
+}
+    
+.about_top{
+    width: 60%;
+    height: 128rem;
+    text-align: center;
+    float: left;
+}
+.top_title{
+    padding: .5rem;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 28px;
+    text-align: left;
+}
+.quote{
+    padding:0 ;
+    margin-bottom: 3px;
+    font-size: 26px;
+    font-family: serif;
+    letter-spacing: .1rem;
+    
+}
+.quote_bottom{
+    padding: 0;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-family: serif;
+    letter-spacing: .1rem;
+    
+}
+.mission{
+    
+    font-size: 16px;
+   font-weight: bold;
+    padding: 5px;
+
+}
+.comp_section{
+    font-size: 18px;
+    padding: 2rem;
+}
+
+.right_one{
+    font-size: 14px;
+    width: 25%;
+    float: right;
+    height: 30rem;
+    border: .2rem solid lightgrey;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}
+
+
+#last_news{
+    width: 100%;
+    font-size: 18px;
+    background: transparent;
+    margin: 3rem;
+}
+.links{
+    width: 100%;
+    padding-bottom: 1rem;
+    margin: 0;
+    text-align: left;
+    
+}
+.link_about{
+    text-decoration: none;
+    color:#5397b4;
+    font-size: 14px
+}
+.link_about:hover{
+    text-decoration: underline;
+}
     
 
 
