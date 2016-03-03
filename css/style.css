@@ -57,6 +57,7 @@ li{
 }
 
 
+/*
 .dropdown{
     position: relative;
     display: inline-block;
@@ -181,6 +182,7 @@ footer{
 95% { left: -300%; }
 100% { left: -400%; }
 }
+*/
 
 
 body { margin: 0; } 
