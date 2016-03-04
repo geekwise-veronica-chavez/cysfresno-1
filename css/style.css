@@ -11,14 +11,16 @@ header{
     
     background-color: #728aa5;
     text-align: center;
-     
+    
 }
 
 div{
+    
     display: block;`
 }
 
 nav{
+    
     background-color: #728aa5;
     margin: 0 auto;
     padding: 0 auto;
@@ -36,19 +38,16 @@ li{
 }
 
 
-
-
-
-
-
     NAVIGATION BAR STYLES HERE
 
 .btn > a{
     
     text-decoration: none;
+    
 }
 
 .btn > a:hover{
+    
     color:skyblue;
     background-color:white;
     transition: background 1s;
@@ -65,6 +64,11 @@ li{
     border: none;
     cursor: auto;
     
+}
+
+section > .firstArticle{
+    width:80%;
+    background-color:ghostwhite;
 }
 
 
