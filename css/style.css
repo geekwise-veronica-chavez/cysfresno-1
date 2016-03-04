@@ -76,6 +76,7 @@ section > .firstArticle{
 section > .secondArticle{
     margin:0 auto;
     height:10%;
+    display:inline;
     width:calc(100%/2);
     float:right;
     background-color:red;
