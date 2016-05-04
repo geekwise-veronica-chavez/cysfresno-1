@@ -1,0 +1,57 @@
+html, body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    background-color:lightgray;
+}
+
+header{
+    
+    background-color: #728aa5;
+    text-align: center;
+     
+}
+
+div{
+    display: block;`
+}
+
+nav{
+    background-color: #728aa5;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+li{
+    display: inline-block;
+    
+}
+
+    NAVIGATION BAR STYLES HERE
+
+.btn > a{
+    
+    text-decoration: none;
+}
+
+.btn > a:hover{
+    color:skyblue;
+    background-color:white;
+    transition: background 1s;
+    border-radius:.9rem;
+    
+}
+
+.btn{
+    
+    background-color: #728aa5;
+    color:ghostwhite;
+    padding: .3rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: auto;
+    
+}
